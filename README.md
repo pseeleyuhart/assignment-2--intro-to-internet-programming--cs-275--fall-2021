@@ -54,7 +54,7 @@ You must employ Gulp as the task runner with workflows for development and produ
 ---
 
 ## ❖・Due・❖
-Friday, 15 October 2021, at 10:00 AM.
+Wednesday, 20 October 2021, at 10:00 AM.
 
 ---
 
