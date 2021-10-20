@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Patrick Seeley</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <h1>Rice</h1>
+</header>
+<h2 class="h2 h2type" >type of rice - 種類</h2>
+<button class="button b1" id="whiteRice">white rice</button>
+<button class="button b2"  id="caliRice">sprouted california rice</button>
+<form>
+  <h2 class="h2 h2cups">cups of rice - カップ</h2>
+  <input id="userInput" type="text" size="6" maxlength="10" value="2">
+</form>
+<div id="whiteRecipe" class="recipe">
+  <p class="title">to cook rice - ご飯を炊く</p>
+  <p>Combine <span class="highlight" id="wCups"></span> <strong class="highlight">cup(s)</strong> of rice with <span class="highlight" id="wWater"></span> <strong class="highlight"> cup(s)</strong> of water and <strong class="highlight">1 Tbsp</strong> olive oil.</p>
+  <p>Bring to a boil, then reduce heat to the lowest setting.</p>
+  <p>Cook for about <strong class="highlight">18 minutes</strong>.</p>
+</div>
+<div id="calRecipe" class="recipe hider">
+  <p class="title">for slightly al dente rice - アルデンテご飯</p>
+  <p>Combine <span class="highlight" id="cCups"></span> <strong class="highlight"> cup(s)</strong> of rice with <span class="highlight" id="cWater"></span> <strong class="highlight"> cup(s)</strong> of water and <strong class="highlight">1 Tbsp</strong> olive oil.</p>
+  <p>Bring to a boil and stir once to mix.</p>
+  <p>Reduce heat to low, cover with a tight-fitting lid and cook for <strong class="highlight">25 minutes</strong>.</p>
+  <p>Remove from heat and let stand for <strong class="highlight"> 5 minutes</strong>. Fluff with a fork and serve.</p>
+  <p class="title">for softer rice - やわらかいご飯</p>
+  <p>Increase liquid by <strong class="highlight">1/2 cup</strong> and cook time by <strong class="highlight">5 minutes</strong>.</p>
+</div>
+<div id="error" class="recipe hider">
+  <p>Begin by inputting your number of cups.</p>
+</div>
+<script type="text/javascript" src=app.js></script>
+</body>
+</html>
